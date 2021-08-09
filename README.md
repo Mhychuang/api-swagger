@@ -9,6 +9,10 @@ and import it into app.js
 for more ymal comments please check it out here:
 https://editor.swagger.io/
 
+One thing to be noted is that the “in” parameter should be “path” instead of body. 
+Since we are getting the id from the path not in the body. 
+
+
 
 ## To deploy on herolu
 create a heroku account
